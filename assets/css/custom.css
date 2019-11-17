@@ -22,3 +22,133 @@ p {
 	text-align:left!important;
 	
 }
+.header-content-right .title {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    max-height: 84px;
+    z-index: 1030;
+}
+.header-content-center{   
+    padding-bottom: 15px;
+    text-align: center;
+}
+.header-content-center .title{
+    font-size: 30px;
+    color: #754ef9;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/*-- Work sections colors*/
+.work-main-title{
+    padding-bottom: 25px;
+    text-align: center;
+}
+.work-section-title{
+    font-size: 35px;
+    margin: 0 0 57px;
+}
+.work-section-description{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 0 79px;
+}
+.work-section-button-dark{
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;    
+    display: inline-block;
+    border: 1px solid #121113;
+    color: #fff;
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+    box-shadow: 0px 5px 8px 0px #464c526e;
+    background-color: #121113;
+    text-transform: none;
+}
+
+.work-section-button-dark:hover{
+    background-color: #fff;
+    color: #121113;
+    border-color: #121113;
+}
+.work-image{
+ padding: 0 10px;
+
+}
+
+.work-project-1 {
+    
+    background-color: rgb(238, 242, 248);
+   
+}
+.work-project-2 {
+    
+    background-color: rgb(255, 220, 114);
+  
+}
+.work-project-3 {
+    
+    background-color: rgb(173, 235, 208);
+   
+}
+.work-project-4 {
+    
+    background-color: rgb(232, 232, 232);
+  
+}
+
+/*-------Indiviual project page--------------*/
+.project-header{   
+    background-color: #fff;
+    margin: 15px 0 0 0;
+    
+}
+.project-header-full-image{
+    background-color: #fff;
+
+}
+.project-title{
+    padding-bottom:10px;
+
+}
+.project-sub-title {
+    color: var(--indigo)!important;
+    padding-bottom:15px;
+}
+.project-role-duration h3 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.challenge-goals{
+    background-color: rgb(238, 242, 248);
+
+}
+.challenge-goals ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.unordered-list-1 {
+    padding-left: 18px;
+}
+
+.challenge-goals .list-text {
+    color: #333;
+    font-size: 16px;
+    line-height: 30px;
+    list-style-type: decimal;
+}
+
