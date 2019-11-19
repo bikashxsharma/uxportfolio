@@ -46,6 +46,10 @@ p {
     padding-bottom: 15px;
     text-align: center;
 }
+/*resuable align center class*/
+.align-center {
+    text-align: center;
+}
 
 /*-- Work sections colors*/
 .work-main-title{
@@ -109,12 +113,19 @@ p {
 /*-------Indiviual project page--------------*/
 .project-header{   
     background-color: #fff;
-    margin: 15px 0 0 0;
+    margin: 100px 0 0 0;
+    padding: 30px 0;
     
 }
 .project-header-full-image{
     background-color: #fff;
+    height:600px;
 
+}
+.project-header-full-image img{
+    width:100%;
+    height:100%;
+    max-height: 611px;
 }
 .project-title{
     padding-bottom:10px;
@@ -131,6 +142,7 @@ p {
 
 .challenge-goals{
     background-color: rgb(238, 242, 248);
+    padding: 50px 0;
 
 }
 .challenge-goals ul {
@@ -150,5 +162,33 @@ p {
     font-size: 16px;
     line-height: 30px;
     list-style-type: decimal;
+   
+}
+.project-design-process{
+    background-color: rgb(244, 245, 248);
+    padding:30px 0;
+
 }
 
+/*side nav fixed*/
+.side-nav-fixed{
+    position: fixed;
+    top:30%;
+    right:0%;
+    padding:0 10px 0 0;
+    color:#000;
+    z-index: 11;
+    transition: all 0.2s;
+}
+.class-display-none{
+    display:none!important;
+}
+.side-nav-fixed li{
+
+   padding: 20px 20px;
+   border: 1px solid rgba(118, 78, 249, 0.90);
+   font-weight: 600;
+   
+   background-color: rgba(217, 214, 228, 0.55);
+
+}
