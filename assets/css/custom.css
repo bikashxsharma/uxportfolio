@@ -194,6 +194,7 @@ p {
 .design-process-title{
     font-size: 35px;
     margin: 0 0 10px;
+    padding: 20px 0;
 }
 .design-process-texts{
     padding: 0 50px;    
@@ -201,6 +202,25 @@ p {
     margin: 0 10px 10px 10px;
 
 
+}
+.project-btn-primary{
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid #121113;
+    box-shadow: 0px 5px 8px 0px #464c526e;
+    background-color: #121113;
+    text-transform: none;
+    margin:5px 0;
+}
+.project-btn-secondary{
+    color:#121113;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid #121113;
+    box-shadow: 0px 5px 8px 0px #464c526e;
+    background-color:rgba(0,0,0,0.0);
+    text-transform: none;
+    margin:5px 0;
 }
 
 /*side nav fixed*/
