@@ -245,3 +245,11 @@ p {
    background-color: rgba(217, 214, 228, 0.55);
 
 }
+
+/*showcase slider 1*/
+.carousel-indicators li{
+    background-color: #754ef9;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
