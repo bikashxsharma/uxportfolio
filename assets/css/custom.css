@@ -128,7 +128,7 @@ p {
     font-size: 30px;
     text-transform: uppercase;
     padding: 15px 0;
-    color:#754ef9;
+    color: #413f48;
     font-weight: 600;
 }
 
@@ -152,7 +152,7 @@ p {
 }
 .project-role-duration h3 {
     font-size: 20px;
-    padding-bottom: 5px;
+    padding: 10px 0;
 }
 
 .challenge-goals{
@@ -252,4 +252,38 @@ p {
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+/*list items with icons*/
+.icon-with-list {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px 20px;
+    margin: 5px 20px;
+    background-color: wheat;
+}
+
+.list-icon {
+    font-size: 50px;
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*smaller screen special setup*/
+@media only screen and (max-width: 600px) {
+    
+    .icon-with-list {
+        flex-direction: column;
+    }
+
 }
