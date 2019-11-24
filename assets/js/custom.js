@@ -10,5 +10,5 @@ window.onscroll = function() {
        document.getElementById("side-fixed-nav").classList.add("class-display-none");
        
      }
-     console.log(currentScrollPos);
+
    }
