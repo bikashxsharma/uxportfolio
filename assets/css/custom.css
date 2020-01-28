@@ -14,7 +14,57 @@ p {
     color: #4f5365!important;
     margin: 0px;
 }
+.main-btn {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #754ef9;
+    padding: 0 40px;
+    font-size: 15px;
+    line-height: 48px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 9;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+    box-shadow: 0px 0px 0px 0px rgba(118, 78, 249, 0.55);
+    background-color: #754ef9;
+    text-transform: none; 
+}
+.main-btn:hover {
+    border: 1px solid #683aff;
+    background-color: #683aff;
+    color: #fff;
+   
+}
 
+.btn-normal {
+    background: transparent;
+    color: #313131;
+    border: 1px solid #313131;
+    box-shadow: none;
+    text-transform: none;
+}
+.btn-normal:hover {
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    box-shadow: none;
+    text-transform: none;
+}
 .about-title{
 	
 	padding-top:50px;
@@ -65,27 +115,30 @@ p {
 }
 .work-section-description{
     font-size: 30px;
-    line-height: 40px;
+    line-height: 2rem;
     margin: 0 0 79px;
 }
-.work-section-button-dark{
+.work-section-button-dark {
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #4a474c;
+    color: #fff;
+    background-color: #201e21;
+    text-transform: none;
+}
+
+
+.work-section-button-dark:hover{
     font-size: 20px;
     line-height: 50px;
     text-decoration: none;    
     display: inline-block;
-    border: 1px solid #121113;
+    border: 1px solid #000000;
     color: #fff;
-    -webkit-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
-    -moz-box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
-    box-shadow: 0px 5px 8px 0px #464c526e;
-    background-color: #121113;
+    background-color: #000000;
     text-transform: none;
-}
-
-.work-section-button-dark:hover{
-    background-color: #fff;
-    color: #121113;
-    border-color: #121113;
 }
 .work-image{
  padding: 0 10px;
@@ -125,11 +178,10 @@ p {
     
 }
 .capital-title{
-    font-size: 30px;
-    text-transform: uppercase;
+    font-size: 20px;
     padding: 15px 0;
-    color:#754ef9;
-    font-weight: 600;
+    color: #413f48;
+    font-weight: 700;
 }
 
 .project-header-full-image{
@@ -152,7 +204,7 @@ p {
 }
 .project-role-duration h3 {
     font-size: 20px;
-    padding-bottom: 5px;
+    padding: 10px 0;
 }
 
 .challenge-goals{
@@ -188,6 +240,10 @@ p {
 .design-process-alternative-2{
     background-color: rgb(173, 235, 208);
 }
+.design-process-alternative-4{
+    background-color: #edf7fa;
+}
+
 .design-process-alternative-2 .unordered-list-1 {
     padding-left: 60px;
 }
@@ -252,4 +308,69 @@ p {
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+/*list items with icons*/
+.icon-with-list {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px 20px;
+    margin: 5px 20px;
+    background-color: wheat;
+}
+
+.list-icon {
+    font-size: 30px;
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-process {
+    background: #eef2f8;
+}
+.quote-title{
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+
+.design-thinking-box {
+    color: #000000;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.design-thinking-box-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+span.number-circle {
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    font-weight: 500;
+}
+
+/*smaller screen special setup*/
+@media only screen and (max-width: 600px) {
+    
+    .icon-with-list {
+        flex-direction: column;
+    }
+
 }
