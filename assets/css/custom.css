@@ -366,6 +366,15 @@ span.number-circle {
     font-weight: 500;
 }
 
+.border-box{
+    border:1px solid #4a474c;
+    margin:5px;
+    padding:5px;
+}
+.box-our-solution{
+    border: 8px solid #03f13c;
+}
+
 /*smaller screen special setup*/
 @media only screen and (max-width: 600px) {
     
