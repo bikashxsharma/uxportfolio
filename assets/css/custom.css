@@ -162,7 +162,7 @@ p {
 }
 .work-project-4 {
     
-    background-color: rgb(232, 232, 232);
+    background-color: #c5b0ec;
   
 }
 .text-italic {
@@ -217,13 +217,14 @@ p {
     list-style-type: disc;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    color: #4f5365!important;
 }
 .unordered-list-1 {
     padding-left: 18px;
 }
 
 .challenge-goals, .list-text {
-    color: #333;
+    color: #4f5365!important;
     font-size: 16px;
     line-height: 30px;
     list-style-type: decimal;
@@ -235,16 +236,31 @@ p {
 
 }
 .design-process-alternative-1{
-    background-color: rgb(255, 220, 114);
-}
-.design-process-alternative-2{
     background-color: rgb(173, 235, 208);
 }
-.design-process-alternative-4{
+.design-process-alternative-2{
+    background-color: rgb(255, 220, 114);
+}
+.design-process-alternative-3{
+    background-color: #c5b0ec;
+}
+
+
+
+.design-process-alternative-white{
     background-color: #edf7fa;
 }
 
-.design-process-alternative-2 .unordered-list-1 {
+.design-process-alternative-dark-light{
+    background-color:rgb(219, 228, 230);
+}
+.design-process-alternative-white-light{
+    background-color: #eef2f8;
+
+
+}
+
+.design-process-alternative-white-light .unordered-list-1 {
     padding-left: 60px;
 }
 .design-process-title{
@@ -372,7 +388,7 @@ span.number-circle {
     padding:5px;
 }
 .box-our-solution{
-    border: 8px solid #03f13c;
+    border: 8px solid #797d7a;
 }
 
 /*smaller screen special setup*/
