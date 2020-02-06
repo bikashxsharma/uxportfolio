@@ -17,6 +17,7 @@ p {
 .main-btn {
     display: inline-block;
     font-weight: 500;
+    margin-bottom:15px;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -186,7 +187,7 @@ p {
 
 .project-header-full-image{
     background-color: #fff;
-    height:600px;
+    height:700px;
 
 }
 .project-header-full-image img{
@@ -259,6 +260,11 @@ p {
 
 
 }
+.aboutme-top-heading-section{
+    margin: 150px 0px 0px 30px;
+    background-color: #fff;
+
+}
 
 .design-process-alternative-white-light .unordered-list-1 {
     padding-left: 60px;
@@ -272,6 +278,7 @@ p {
     padding: 0 50px;    
     line-height: 30px;
     margin: 0 10px 10px 10px;
+    text-align:justify;
 
 
 }
@@ -391,6 +398,25 @@ span.number-circle {
     border: 8px solid #797d7a;
 }
 
+/*About me*/
+.about-me-section{
+    margin:80px 0 0 0;
+}
+.about-me-text{
+    padding: 0 20px;
+    line-height: 30px;
+    margin: 0 10px 10px 10px;
+    text-align: justify;
+}
+.span.text-underline {
+    border-bottom: 1px solid #ad9de6;
+}
+.width-small{
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
 /*smaller screen special setup*/
 @media only screen and (max-width: 600px) {
     
