@@ -399,6 +399,16 @@ span.number-circle {
     border: 8px solid #797d7a;
 }
 
+/*UI thumbnail*/
+.ui-thumbnail{
+    transition: transform .2s;
+}
+.ui-thumbnail:hover{
+    transform: scale(1.05);
+
+}
+
+
 /*About me*/
 .about-me-section{
     margin:80px 0 0 0;
